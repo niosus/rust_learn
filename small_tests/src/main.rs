@@ -3,6 +3,8 @@ fn print_sum(x: i32, y: i32) -> i32 {
     println!("x + y = {}", x + y);
     // we can just write `return x + y;` here.
     // Considered poor style in rust if used in the end of fn.
+    // The value of the expression is the value of the last expression
+    // in whichever branch was chosen
     x + y // rust complains if there is no return on at least one execution path
 }
 
