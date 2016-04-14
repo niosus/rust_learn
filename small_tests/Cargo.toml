@@ -1,0 +1,6 @@
+[package]
+name = "small_tests"
+version = "0.1.0"
+authors = ["Igor Bogoslavskyi <igor.bogoslavskyi@gmail.com>"]
+
+[dependencies]
